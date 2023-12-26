@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}HOME{% endblock title %}
+{% block body %}
+    <div class="row m-0 mt-3 p-0">
+        <div class="col-md-6 ">
+            <div class="jumbotron">
+                <h1 class="display-4">WELCOME TO THE WORLD OF COSMOS</h1>
+                <p class="lead">Embark on a cosmic adventure of wonders and mysteries, exploring the universe through captivating visuals and thought-provoking articles.Unlock the mysteries of the cosmos with our captivating online platform. Welcome to a limitless journey into the cosmos.</p>
+                <hr class="my-4">
+                <p>Unveiling the mysteries of the cosmos, one click at a time.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+              </div>
+        </div>
+        <div class="col-md-6">
+          <img class="d-block w-100 img-opacity" src="{% static 'image/c1.jpg' %}" alt="">
+        </div>
+    </div>
+{% endblock body %}
